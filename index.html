@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infotsav 2K26 | RIT IT Department</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">Infotsav<span>2K26</span></a>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#Events">Events</a>
+        <a href="#Non-Technical">Fun Zone</a>
+    </nav>
+    <button class="btn-primary" onclick="openModal()">Register Now</button>
+</header>
+<main>
+    <div class="brand-strip">
+    <div class="brand-left">
+        <img src="logorit.png" alt="RIT Logo" class="brand-logo-img">
+    </div>
+    
+    <div class="brand-center">
+        <p class="society-name">K.E. Society's</p>
+        <h2 class="inst-full-name">Rajarambapu Institute of Technology, Rajaramnagar</h2>
+        <p class="dept-label">Department of Information Technology</p>
+        <p class="autonomous-tag">An Empowered Autonomous Institute</p>
+    </div>
+
+    <div class="brand-right">
+        <img src="csitelogo.png" alt="CSITE Logo" class="brand-logo-img">
+    </div>
+</div>
+<br>
+<main>
+    <section class="hero" id="hero">
+        </section>
+</main>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <span class="badge">Feb 25-26, 2026</span>
+            <h1>Ignite Your <span>Tech Passion</span> at Infotsav 2K26</h1>
+            <p>Join the IT Department for a 2-day grand tech-fest. Compete in high-level coding, gaming, and creative events.</p>
+            
+            <div class="countdown-container" id="timer">
+                <div class="count-box"><span id="days">00</span><label>Days</label></div>
+                <div class="count-box"><span id="hours">00</span><label>Hrs</label></div>
+                <div class="count-box"><span id="mins">00</span><label>Mins</label></div>
+                <div class="count-box"><span id="secs">00</span><label>Secs</label></div>
+            </div>
+
+            <div class="hero-btns">
+    <a href="event.jpg" download="Infotsav_2K26_Schedule" class="btn-download">
+        <span class="icon">📥</span> Download Poster
+    </a>
+    <button class="btn-primary hero-btn" onclick="scrollToSection('Events')">Explore Events</button>
+</div>
+        </div>
+
+        <div class="hero-card">
+    <div class="hero-card-image-wrapper">
+        <img src="RITIT1.png" alt="IT Department Logo" class="dept-image">
+    </div>
+    <div class="hero-card-body">
+        <h2>IT DEPT</h2>
+    </div>
+    
+</div>
+        </div>
+    </section>
+    <section class="prize-section-light">
+    <div class="prize-card">
+        <div class="prize-content">
+            <span class="prize-label">Total Prize Pool</span>
+            <h2 class="prize-amount-light">₹50,000<span>+</span></h2>
+            <p class="prize-tagline-light">Showcase your skills and win big across 8+ events!</p>
+        </div>
+        
+        <div class="perks-row">
+            <div class="perk-pill">
+                <span class="perk-icon">📜</span> Certificates for All
+            </div>
+            <div class="perk-pill">
+                <span class="perk-icon">🍕</span> Refreshments
+            </div>
+            <div class="perk-pill">
+                <span class="perk-icon">🏆</span> Trophies for Winners
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Events">
+    <div class="section-header-box technical">
+        <span class="category-badge">CORE TECH</span>
+        <h2>Technical Events</h2>
+        <div class="header-line"></div>
+    </div>
+    
+    <div class="grid">
+        </div>
+</section>
+ <div class="grid">
+    <div class="card">
+        <div class="icon">💻</div>
+        <h3>Code Dash</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Abhijeet Gaikwad</p>
+        <p class="contact-number">📞 7745877951</p>
+        <p>Entry: Single ₹99 | Dual ₹159</p>
+        <p class="event-date">📅 Feb 25, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('Code Dash')">Register</button>
+    </div>
+
+    <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI PlayQuest</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Siddhi Nikam</p>
+        <p class="contact-number">📞 8010805783</p>
+        <p>Entry: ₹120 (Team of 2-3)</p>
+        <p class="event-date">📅 Feb 25, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('AI PlayQuest')">Register</button>
+    </div>
+
+    <div class="card">
+        <div class="icon">👔</div>
+        <h3>Hoodies to Blazers</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Neha Pawar</p>
+        <p class="contact-number">📞 9325028014</p>
+        <p>Entry: Single ₹99 | Dual ₹159</p>
+        <p class="event-date">📅 Feb 26, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('Hoodies to Blazers')">Register</button>
+    </div>
+
+    <div class="card">
+        <div class="icon">🎨</div>
+        <h3>Canva CreateX</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Vishwasamradnyi Mane</p>
+        <p class="contact-number">📞 7248939449</p>
+        <p>Entry: Single ₹59 | Dual ₹99</p>
+        <p class="event-date">📅 Feb 26, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('Canva CreateX')">Register</button>
+    </div>
+</div>
+<section id="Non-Technical">
+    <div class="section-header-box non-technical">
+        <span class="category-badge">FUN & SKILLS</span>
+        <h2>Non-Technical Events</h2>
+        <div class="header-line"></div>
+    </div>
+
+    <div class="grid">
+        </div>
+</section>
+    <div class="grid">
+    <div class="card">
+        <div class="icon">🏏</div>
+        <h3>IPL Auction</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Vikrant Abhang</p>
+        <p class="contact-number">📞 8856995805</p>
+        <p>Entry: ₹99 per team</p>
+        <p class="event-date">📅 Feb 25, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('IPL Auction')">Register</button>
+    </div>
+
+    <div class="card">
+        <div class="icon">♟️</div>
+        <h3>Chess Checkmate</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Farhan Sharbatwale</p>
+        <p class="contact-number">📞 7869091212</p>
+        <p>Entry: ₹79</p>
+        <p class="event-date">📅 Feb 25, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('Chess')">Register</button>
+    </div>
+
+    <div class="card">
+        <div class="icon">🏋️</div>
+        <h3>Powerlifting</h3>
+        <p class="coordinator-info"><strong>Coord:</strong> Gaurav Patil</p>
+        <p class="contact-number">📞 8788257581</p>
+        <p>Entry: ₹499</p>
+        <p class="event-date">📅 Feb 24, 2026</p>
+        <br>
+        <button class="btn-primary" onclick="openModal('Powerlifting')">Register</button>
+    </div>
+</div>
+</main>
+<section id="About" class="team-section">
+    <div class="section-title">
+        <h2>Leadership & Organizing Team</h2>
+        <p>K.E. Society's Rajarambapu Institute of Technology, Rajaramnagar</p>
+    </div>
+
+    <div class="leadership-grid">
+        <div class="person-card highlight">
+            <h4>Dr. P. V. Kadole</h4>
+            <p>Director, RIT</p>
+        </div>
+        <div class="person-card highlight">
+            <h4>Dr. A. C. Adamuthe</h4>
+            <p>HOD, IT Department</p>
+        </div>
+        <div class="person-card">
+            <h4>Dr. L. M. Jugulkar</h4>
+            <p>Dean Student Development</p>
+        </div>
+        <div class="person-card">
+            <h4>Prof. D. T. Mane</h4>
+            <p>CSITE Coordinator</p>
+        </div>
+    </div>
+
+    <div class="csite-banner">
+        <div class="csite-header">
+            <img src="csitelogo.png" alt="CSITE Logo" class="csite-small">
+            <h3>Organized by CSITE</h3>
+        </div>
+        <div class="student-lead">
+            <div class="person-card president">
+                <h4>Mr. Ajinkya Bhosale</h4>
+                <p>CSITE President</p>
+            </div>
+            <div class="person-card president">
+                <h4>Mr. Soham Molaye</h4>
+                <p>CSITE Vice-President</p>
+            </div>
+            <div class="person-card president">
+                <h4>Ms. Rutuja Pawar </h4>
+                <p>CSITE Sectery</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="reg-notification" class="reg-notification">
+    <div class="reg-icon">🔥</div>
+    <div class="reg-text">
+        <span id="reg-user-name">Someone</span> just registered for 
+        <strong id="reg-event-name">Code Dash</strong>!
+    </div>
+</div>
+<div class="modal-overlay" id="regModal">
+    <div class="modal">
+        <button class="close-modal" onclick="closeModal()">✕</button>
+        <h3>Event Registration</h3>
+        <form id="regForm">
+    <input type="text" name="Full Name" placeholder="Full Name" required>
+    
+    <input type="tel" name="WhatsApp Number" placeholder="WhatsApp Number" pattern="[0-9]{10}" required>
+    
+    <input type="text" name="College name" placeholder="College Name" required>
+
+    <select id="eventDropdown" name="Event Name" onchange="handleEventChange()" required>
+        <option value="AI PlayQuest" data-name="AI PlayQuest" data-type="fixed">AI PlayQuest</option>
+        <option value="Code Dash" data-name="Code Dash" data-type="both">Code Dash</option>
+        <option value="Hoodies to Blazer" data-name="Hoodies to Blazer" data-type="both">Hoodies to Blazer</option>
+        <option value="Canva CreateX" data-name="Canva CreateX" data-type="both">Canva CreateX</option>
+        <option value="Deadlift Powerlifting" data-name="Powerlifting" data-type="fixed">
+    Deadlift Powerlifting
+</option>
+        <option value="Chess" data-name="Chess" data-type="fixed">Chess</option>
+        <option value="IPL Auction" data-name="IPL Auction" data-type="fixed">IPL Auction</option>
+    </select>
+
+    <div id="participationToggle" style="display: none;">
+        <div class="p-toggle-box">
+            <label><input type="radio" name="pType" value="single" checked onclick="syncParticipationType('single')"> Single</label>
+            <label><input type="radio" name="pType" value="dual" onclick="syncParticipationType('dual')"> Dual</label>
+        </div>
+        <input type="hidden" name="Participation Type" id="Participation_Type" value="single">
+        <input type="text" id="partnerName" placeholder="Partner Name" style="display:none;">
+    </div>
+
+    <div class="qr-box">
+        <p>SCAN TO PAY</p>
+        <img src="scanner.jpeg" alt="QR Code" loading="lazy">
+    </div>
+
+    <div class="payable-box">
+        <span>Payable:</span>
+        <span class="price">₹<span id="displayTotal">99</span></span>
+    </div>
+
+    <input type="text" name="Transition ID" placeholder="Transaction ID (UTR)" required>
+    
+    <p style="font-size: 0.8rem; margin-top: 10px;">Paste Screenshot Link (G-Drive/ImgBB):</p>
+    <input type="url" name="Payment Screenshot Link" placeholder="Payment Link" required>
+
+    <button class="contact-btn" type="submit">Confirm Registration</button>
+</form>
+    </div>
+</div>
+
+<footer class="infotsav-footer">
+    <div class="footer-top">
+        <div class="footer-col brand">
+            <h2 class="logo" ><span>Infotsav 2K26</span></h2>
+            <p>Organized by the Department of Information Technology & CSITE.</p>
+        
+        </div>
+
+        <div class="footer-col links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#Events">Technical Events</a></li>
+                <li><a href="#Non-Technical">Fun Zone</a></li>
+                <li><a href="#About">Our Team</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col contact">
+            <h4>Location & Venue</h4>
+            <p>📍 IT Department, RIT Rajaramnagar</p>
+            <p>📅 Feb 25th - 26th, 2026</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-line"></div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Infotsav. All Rights Reserved.</p>
+            <p>Designed with ❤️ by <span class="designer-name">Abhijeet Gaikwad</span></p>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+<div class="wa-help-desk" id="waHelpDesk">
+    <div class="wa-menu" id="waMenu">
+        <div class="wa-header">
+            <h4>Support Team</h4>
+            <p>Infotsav 2K26 Help Desk</p>
+        </div>
+        <div class="wa-list">
+            <a href="https://wa.me/918010805783?text=Query about AI PlayQuest">
+                <div class="wa-item-icon">🤖</div>
+                <div class="wa-item-info">
+                    <span>AI PlayQuest</span>
+                    <small>Siddhi Nikam</small>
+                </div>
+            </a>
+            <a href="https://wa.me/917745877951?text=Query about Code Dash">
+                <div class="wa-item-icon">💻</div>
+                <div class="wa-item-info">
+                    <span>Code Dash</span>
+                    <small>Abhijeet Gaikwad</small>
+                </div>
+            </a>
+            <a href="https://wa.me/919325028014?text=Query about Hoodies to Blazer">
+                <div class="wa-item-icon">👔</div>
+                <div class="wa-item-info">
+                    <span>Hoodies to Blazer</span>
+                    <small>Neha Pawar</small>
+                </div>
+            </a>
+            <a href="https://wa.me/917248939449?text=Query about Canva CreateX">
+                <div class="wa-item-icon">🎨</div>
+                <div class="wa-item-info">
+                    <span>Canva CreateX</span>
+                    <small>Vishwasamradnyi Mane</small>
+                </div>
+            </a>
+            
+            <a href="https://wa.me/918788257581?text=Query about Powerlifting">
+                <div class="wa-item-icon">🏋️</div>
+                <div class="wa-item-info">
+                    <span>Powerlifting</span>
+                    <small>Gaurav Patil</small>
+                </div>
+            </a>
+            <a href="https://wa.me/917869091212?text=Query about Chess">
+                <div class="wa-item-icon">♟️</div>
+                <div class="wa-item-info">
+                    <span>Chess Checkmate</span>
+                    <small>Farhan Sharbatwale</small>
+                </div>
+            </a>
+            <a href="https://wa.me/918856995805?text=Query about IPL Auction">
+                <div class="wa-item-icon">🏏</div>
+                <div class="wa-item-info">
+                    <span>IPL Auction</span>
+                    <small>Vikrant Abhang</small>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <button class="wa-main-btn" onclick="toggleWaMenu()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="24" alt="WA">
+        <span>Help Desk</span>
+    </button>
+</div>
+</body>
+</html>
